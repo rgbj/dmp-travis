@@ -83,6 +83,8 @@
                 <groupId>io.fabric8</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
                 <configuration>
+                    <verbose>true</verbose>
+                    <showLogs>true</showLogs>
                     <images>
                         <image>
                             <name>rgbj.me/dmp-travis-sample:%l</name>
